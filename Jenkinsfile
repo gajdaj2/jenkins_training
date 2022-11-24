@@ -8,6 +8,6 @@ node {
         }
         stage('Deploy') {
                 echo 'Deploying....'
-                readFilefromCurrentDirectory()
+                test()
         }
     }

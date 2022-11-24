@@ -1,6 +1,5 @@
 import groovy.io.FileType
 
-print("Hello world")
 
 def readFilefromCurrentDirectory() {
     File dir = new File(".")
@@ -8,6 +7,3 @@ def readFilefromCurrentDirectory() {
         println file.name
     }
 }
-
-
-readFilefromCurrentDirectory()
